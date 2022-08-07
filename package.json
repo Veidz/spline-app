@@ -8,9 +8,9 @@
     "npm": "8.5.4"
   },
   "scripts": {
+    "start": "vite preview",
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@babel/plugin-transform-typescript": "^7.18.12",
