@@ -19,6 +19,10 @@ const Social = styled.div`
       #1306DD 65.86%,
       #AA0EB2 100%);
   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `
 
 export default Social
