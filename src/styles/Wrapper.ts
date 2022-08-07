@@ -13,6 +13,22 @@ const Wrapper = styled.div`
     top: 0;
     right: 0;
   }
+
+  @media (max-width: 1024px) {
+    transform: scale(0.98) translateX(200px);
+  }
+  @media (max-width: 800px) {
+    transform: scale(0.7) translateX(680px);
+  }
+  @media (max-width: 600px) {
+    transform: scale(0.5) translateX(-100px);
+    right: auto;
+    left: 50%;
+    margin-left: -608px;
+  }
+  @media (max-width: 375px) {
+    transform: scale(0.45) translateX(-50px);
+  }
 `
 
 export default Wrapper
