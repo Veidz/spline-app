@@ -8,12 +8,28 @@ const Content = styled.div`
   flex-direction: column;
   gap: 80px;
 
+  @media (max-width: 1024px) {
+    gap: 40px;
+  }
+
   h1 {
     font-family: 'Spline Sans Mono', monospace;
     font-weight: bold;
     font-size: 70px;
     margin: 0;
     max-width: 500px;
+
+    @media (max-width: 1024px) {
+      font-size: 60px;
+      max-width: 400px;
+    }
+    @media (max-width: 800px) {
+      font-size: 40px;
+      max-width: 300px;
+    }
+    @media (max-width: 600px) {
+      padding-top: 250px;
+    }
   }
 
   p {
@@ -24,6 +40,10 @@ const Content = styled.div`
 
   h1, p, button {
     margin: 0 30px 0 100px;
+
+    @media (max-width: 1024px) {
+      margin: 0 30px;
+    }
   }
   
   button {
