@@ -48,4 +48,4 @@ const Menu = styled.ul`
   }
 `
 
-export default Menu
+export { Menu }

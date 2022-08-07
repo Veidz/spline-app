@@ -1,8 +1,6 @@
 import Spline from '@splinetool/react-spline'
-import Content from './styles/Content'
-import Wrapper from './styles/Wrapper'
-import Menu from './styles/Menu'
-import Social from './styles/Social'
+
+import { Content, Menu, Social, Wrapper } from './styles'
 
 import IconLaptop from './assets/icon-laptop.svg'
 import IconTwitter from './assets/icon-twitter.svg'

@@ -26,4 +26,4 @@ const Social = styled.div`
   }
 `
 
-export default Social
+export { Social }
