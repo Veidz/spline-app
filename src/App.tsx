@@ -1,12 +1,13 @@
 import Spline from '@splinetool/react-spline'
 import Content from './styles/Content'
 import Wrapper from './styles/Wrapper'
+import Menu from './styles/Menu'
+import Social from './styles/Social'
 
 import IconLaptop from './assets/icon-laptop.svg'
 import IconTwitter from './assets/icon-twitter.svg'
 import IconYoutube from './assets/icon-youtube.svg'
 import Logo from './assets/logo.svg'
-import Menu from './styles/Menu'
 
 export default function App() {
   return (
@@ -27,6 +28,11 @@ export default function App() {
           <img src={ IconLaptop } alt='Download' />Download for Mac
         </button>
       </Content>
+      <Social>
+        <div />
+        <img src={ IconTwitter } alt='Twitter' />
+        <img src={ IconYoutube } alt='Youtube' />
+      </Social>
     </Wrapper>
   )
 }
