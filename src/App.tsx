@@ -30,8 +30,8 @@ export default function App() {
       </Content>
       <Social>
         <div />
-        <img src={ IconTwitter } alt='Twitter' />
-        <img src={ IconYoutube } alt='Youtube' />
+        <img src={ IconTwitter } alt='Twitter Icon' />
+        <img src={ IconYoutube } alt='Youtube Icon' />
       </Social>
     </Wrapper>
   )
