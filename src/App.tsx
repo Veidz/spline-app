@@ -1,6 +1,11 @@
-import Spline from '@splinetool/react-spline';
-import Content from './styles/Content';
-import Wrapper from './styles/Wrapper';
+import Spline from '@splinetool/react-spline'
+import Content from './styles/Content'
+import Wrapper from './styles/Wrapper'
+
+import IconLaptop from './assets/icon-laptop.svg'
+import IconTwitter from './assets/icon-twitter.svg'
+import IconYoutube from './assets/icon-youtube.svg'
+import Logo from './assets/logo.svg'
 
 export default function App() {
   return (
@@ -9,7 +14,10 @@ export default function App() {
       <Content>
         <h1>Collaborate with people</h1>
         <p>Bring your team together and build your community by using our cross-platform app that lets you collaborate via chat, voice and by sharing and storing unlimited media files. A world of topics is waiting for you. Join the private beta.</p>
+        <button>
+          <img src={ IconLaptop } alt='Download' />Download for Mac
+        </button>
       </Content>
     </Wrapper>
-  );
+  )
 }
